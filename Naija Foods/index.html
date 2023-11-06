@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Harrison Divine">
+  <meta name="description" content="Official Page for Naija Foods">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Naija Foods</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <h1 class="header__title">
+      <span class="header__title--green">Naija</span>
+      <span class="header__title--green">
+        Foods
+      </span>
+    </h1>
+
+    <nav class="header__nav">
+      <ul class="header__ul">
+        <li>
+          <a href="#menu">Menu</a>
+        </li>
+        <li>
+          <a href="hours.html">Hours</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2 class="hero__title">Welcome!</h2>
+    <figure>
+      <img src="img/ogbono-soup_1000x667.png" alt="Tasty Ogbono Soup" width="1000" height="667"
+        title="A Bowl Of Delicious Ogbono Soup">
+      <figcaption class="offscreen">Tasty Ogbono Soup</figcaption>
+    </figure>
+  </section>
+
+  <main class="main">
+
+    <article class="main__article menu">
+      <h2 id="menu" class="menu__title">Our Menu</h2>
+
+      <table class="menu__table">
+        <caption class="offscreen">Tacos</caption>
+
+        <thead>
+
+          <tr>
+            <th class="menu__header" scope="col">Items</th>
+            <th class="menu__header" scope="col">Quantity</th>
+            <th class="menu__header" scope="col">Price</th>
+          </tr>
+
+        </thead>
+
+        <tbody>
+
+          <tr>
+            <th class="menu__items menu__crunchy" rowspan="3" scope="row">Egusi</th>
+            <td class="menu__items">1</td>
+            <td class="menu__items">&#8358;1000</td>
+          </tr>
+
+          <tr>
+            <td class="menu__items">2</td>
+            <td class="menu__items">&#8358;2000
+            </td>
+          </tr>
+
+          <tr>
+            <td class="menu__items">3</td>
+            <td class="menu__items">&#8358;3000</td>
+          </tr>
+
+          <tr>
+            <th class="menu__items menu__soft" rowspan="3" scope="row">Black Soup</th>
+            <td class="menu__items">1</td>
+            <td class="menu__items">&#8358;2000</td>
+          </tr>
+
+          <tr>
+            <td class="menu__items">2</td>
+            <td class="menu__items">&#8358;3000</td>
+          </tr>
+
+          <tr>
+            <td class="menu__items">3</td>
+            <td class="menu__items">&#8358;4000</td>
+          </tr>
+
+
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td class="menu__items menu__extras" colspan="3">Rice &AMP; Beans &#8358;2000</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </article>
+
+    <p class="center">
+      <a href="#">Back To Top</a>
+    </p>
+  </main>
+
+  <footer class="footer">
+    <p class="center footer__">
+      <span class="nowrap">Copyright &COPY; <time id="year"></time> </span>
+      <span class="nowrap">Naija Foods</span>
+    </p>
+  </footer>
+</body>
+
+</html>
